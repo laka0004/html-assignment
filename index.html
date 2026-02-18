@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
 <header>
-    <h1>Lakama Alicia</h1>
+    <h1 class="site-title">Lakama Alicia</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+        </ul>
+    </nav>
 </header>
 
 <main>
 
-    <article>
+    <article id="about">
         <h2>About Me</h2>
 
-        <!-- Profile Image -->
-        <img src="images/me.jpg" alt="Photo of Lakama Alicia" width="300">
+        <img id="my-image" src="images/me.jpg" alt="Photo of Lakama Alicia" width="300">
 
         <p>
             I am a student at Algonquin College in 
@@ -33,16 +43,17 @@
             because I want to create websites that are both functional and visually appealing. 
             I believe that consistency and practice<sup>1</sup> are the keys to success.
         </p>
+    </article>
 
+    <section id="hobbies">
         <h2>My Hobbies</h2>
         <ul>
             <li>Photography</li>
             <li>Graphic Design</li>
             <li>Web Design</li>
         </ul>
-    </article>
+    </section>
 
-    <!-- Motivation Quote -->
     <blockquote>
         <em>"Believe in your ability to grow, because progress comes from effort and patience."</em>
     </blockquote>
