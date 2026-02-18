@@ -2,13 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Assignment</title>
-
-    <!-- Link to CSS -->
-    <link rel="stylesheet" href="./CSS/main.css">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
-
 <body>
 
 <header>
@@ -16,52 +12,29 @@
 
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="notes.html">Notes</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
+    <h2>About Me</h2>
 
-    <article id="about">
-        <h2>About Me</h2>
+    <img id="my-image" src="images/me.jpg" alt="My photo" width="200">
 
-        <img id="my-image" src="images/me.jpg" alt="Photo of Lakama Alicia" width="300">
+    <p>I am a web design student.</p>
 
-        <p>
-            I am a student at Algonquin College in 
-            <em>Interactive Media Design</em>. 
-            I started my program on January 12<sup>th</sup>. 
-            I am creative and motivated, with a strong interest in photography and media.
-        </p>
-
-        <p>
-            I chose to study 
-            <abbr title="Interactive Media Design">IMD</abbr> 
-            because I want to create websites that are both functional and visually appealing. 
-            I believe that consistency and practice<sup>1</sup> are the keys to success.
-        </p>
-    </article>
-
-    <section id="hobbies">
-        <h2>My Hobbies</h2>
-        <ul>
-            <li>Photography</li>
-            <li>Graphic Design</li>
-            <li>Web Design</li>
-        </ul>
-    </section>
-
-    <blockquote>
-        <em>"Believe in your ability to grow, because progress comes from effort and patience."</em>
-    </blockquote>
-
+    <h2>My Hobbies</h2>
+    <ul class="hobbies">
+        <li>Photography</li>
+        <li>Design</li>
+        <li>Music</li>
+    </ul>
 </main>
 
 <footer>
-    <p>&copy; 2026 Lakama Alicia</p>
+    <p>© 2026 Alicia</p>
 </footer>
 
 </body>
